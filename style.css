@@ -1,8 +1,20 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --fonte-titulo: 'Archivo';
+    --fonte-titulo: 'Archivo Black';
     --fonte-texto:'Montserrat';
+    --cor-principal:#1e2141;
+    --cor-secundaria:#F5C2E7;
+    --cor-destaque:#FF7EDF;
+    --cor-texto:#FFFFFF;
+}
+body{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
