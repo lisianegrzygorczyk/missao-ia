@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --fonte-titulo: 'Archivo Black';
+    --fonte-titulo: 'Archivo';
     --fonte-texto:'Montserrat';
     --cor-principal:#1e2141;
     --cor-secundaria:#F5C2E7;
@@ -26,5 +27,31 @@ body{
     padding: 20px;
 }
 h1, .caixa-perguntas, .caixa-resultados{
-    
+    font-family: var(--fonte-titulo);
+}
+h1{
+    color: var(--cor-destaque);
+}
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: background-color 0.3s;
+}
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+.caixa-resultados{
+    display: none;
+}
+.caixa-resultados.mostrar{
+    display: block;
+}
+.caixa-alternativas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
