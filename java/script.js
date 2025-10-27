@@ -37,7 +37,7 @@ function mostraAlternativas(){
     for (const alternativas of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativas.texto;
-        botaoAlternativas.addEventListener("click, "() => respostaSelecionada(alternativa));
+        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
 caixaAlternativas.appendChild(botaoAlternativas);
     }
     function mostrAfirmacoes(){
