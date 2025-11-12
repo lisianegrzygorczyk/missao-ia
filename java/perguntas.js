@@ -33,6 +33,25 @@ export const perguntas = [
             afirmacao:[
 "é a única abordagem economicamente pragmática e fiduciariamente responsável, pois a função primária da 'Logística Ágil S.A.' é maximizar o valor para o acionista. O investimento em reskilling para 500 funcionários (Alternativa A) é um custo proibitivo e de alto risco, com poucas garantias de que os colaboradores, com perfil operacional, conseguirão assimilar as complexas habilidades de IA"
             ],
+              proxima: 4,
+        }
+    ]
+},
+{
+    enunciado:
+    alternativas:[
+        {
+            texto:
+            afirmacao:[
+
+            ],
+            proxima:3,
+        },
+        {
+            texto:
+            afirmacao:[
+
+            ],
             proxima: 4,
         }
     ]
