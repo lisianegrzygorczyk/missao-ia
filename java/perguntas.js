@@ -46,14 +46,14 @@ export const perguntas = [
                 "O ganho de produtividade da IA é considerado riqueza social; ao conceder stock options e bônus progressivos, a empresa alinha o sucesso da máquina ao interesse de ex-funcionários e remanescentes, promovendo a estabilidade social e o engajamento tecnológico.",
 
             ],
-            proxima:3,
+            proxima:5,
         },
         {
             texto: "A Logística Ágil S.A. implementa a automação de forma agressiva. Os lucros recordes são distribuídos quase integralmente como dividendos para os acionistas e como bônus restritos à alta cúpula que supervisionou a implementação da IA. Os 500 funcionários são desligados com indenização mínima.",
             afirmacao:[
                 "O lucro da automação é um benefício privado e exclusivo dos acionistas e da alta gerência; ao negar a participação nos lucros aos funcionários remanescentes, a empresa acentua a polarização salarial e a desconfiança, minando a moral e a coesão interna.",
             ],
-            proxima: 4,
+            proxima: 6,
         }
     ]
 },
