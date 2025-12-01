@@ -52,9 +52,50 @@ export const perguntas = [
             texto: "A Logística Ágil S.A. implementa a automação de forma agressiva. Os lucros recordes são distribuídos quase integralmente como dividendos para os acionistas e como bônus restritos à alta cúpula que supervisionou a implementação da IA. Os 500 funcionários são desligados com indenização mínima.",
             afirmacao:[
                 "O lucro da automação é um benefício privado e exclusivo dos acionistas e da alta gerência; ao negar a participação nos lucros aos funcionários remanescentes, a empresa acentua a polarização salarial e a desconfiança, minando a moral e a coesão interna.",
-            ],
+             ],
             proxima: 6,
         }
     ]
 },
-]
+{
+    enunciado: "a empresa privada tem a responsabilidade de intervir e financiar a educação pública para seu próprio benefício, ou isso é um problema exclusivo do Estado?",
+    alternativas:[
+         {
+            texto:"Qual estratégia a Logística Ágil S.A. deve adotar para garantir um suprimento futuro de talentos e cumprir sua responsabilidade social com a nova geração de trabalhadores?",
+             afirmacao:[
+                "Foca em investir na educação pública local para garantir talentos futuros e mitigar desigualdade, foca em contratação externa de especialistas e bolsas exclusivas, garantindo qualidade imediata, mas acentuando a segregação social.",
+                  ],
+            proxima:7,
+        },
+        {
+            texto: "A empresa trata o problema da educação como um risco de mercado, buscando soluções rápidas e externas sem intervir na educação pública.",
+            afirmacao: [
+                "Esta estratégia garante a máxima qualidade técnica imediata e atende às necessidades urgentes da empresa.",
+                 ],
+            proxima: 8,
+        }
+    ]
+},
+{
+    enunciado: "Qual estratégia a Logística Ágil S.A. deve adotar para garantir a constante atualização de sua força de trabalho sem sobrecarregar financeiramente a empresa ou o indivíduo, mantendo o engajamento e a competitividade?",
+    alternativas: [
+{
+    texto: "A empresa decide que o melhor caminho é compartilhar o custo, o tempo e a responsabilidade pela aprendizagem contínua.",
+    afirmacao: [
+        "A empresa formaliza um Tempo de Estudo Remunerado de 4 horas por semana dentro da jornada de trabalho para que o colaborador se dedique à atualização. Além disso, a progressão de carreira passa a ser diretamente vinculada à conclusão bem-sucedida dos módulos de treinamento mais recentes.",
+         ],
+            proxima:9,
+        },
+        {
+            texto: "empresa trata a obsolescência de habilidades como um risco puramente individual, minimizando sua intervenção.",
+            afirmacao: [
+                "A empresa oferece apenas sugestões de cursos externos e, no máximo, um pequeno desconto em mensalidades, mas não fornece tempo remunerado para estudo. Os contratos de trabalho passam a incluir uma cláusula de avaliação técnica anual rigorosa, onde a não atualização de habilidades pode levar à despromoção ou desligamento por inadequação técnica.",
+                 ],
+            proxima: 10,
+        }
+    ]
+},
+];
+
+
+        
